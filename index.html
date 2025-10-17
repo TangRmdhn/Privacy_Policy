@@ -1,38 +1,63 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kebijakan Privasi - SyncJadwal</title>
+    <title>Privacy Policy - SyncJadwal</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 20px auto; padding: 0 20px; }
-        h1, h2 { color: #333; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            max-width: 800px; 
+            margin: 20px auto; 
+            padding: 0 20px; 
+            color: #333;
+        }
+        h1, h2 { 
+            color: #111; 
+        }
+        a {
+            color: #007bff;
+        }
+        .container {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
     </style>
 </head>
 <body>
-    <h1>Kebijakan Privasi untuk SyncJadwal</h1>
-    <p><strong>Tanggal Efektif:</strong> 17 Oktober 2025</p>
+    <div class="container">
+        <h1>Privacy Policy for SyncJadwal</h1>
+        <p><strong>Last Updated:</strong> October 17, 2025</p>
 
-    <h2>1. Pengenalan</h2>
-    <p>Aplikasi web SyncJadwal ("Aplikasi") dibuat untuk membantu mahasiswa UPN "Veteran" Yogyakarta menyinkronkan jadwal kuliah mereka dari portal BIMA ke Google Calendar pribadi. Kebijakan Privasi ini menjelaskan bagaimana kami mengakses dan menggunakan data Anda.</p>
+        <h2>1. Introduction</h2>
+        <p>Welcome to SyncJadwal ("the Application"). This web application is designed to help students of UPN "Veteran" Yogyakarta synchronize their class schedules from the BIMA academic portal directly to their personal Google Calendar.</p>
+        <p>This Privacy Policy explains how we access, use, and handle your data when you use our service.</p>
 
-    <h2>2. Data yang Kami Akses</h2>
-    <p>Saat Anda menghubungkan akun Google Anda, Aplikasi akan meminta izin untuk mengakses Google Calendar Anda dengan scope <strong>"https://www.googleapis.com/auth/calendar"</strong>. Izin ini memungkinkan Aplikasi untuk:</p>
-    <ul>
-        <li>Membuat event baru di kalender utama Anda (untuk jadwal kuliah).</li>
-        <li>Membaca event yang ada untuk menghindari duplikasi (jika diperlukan di masa depan).</li>
-    </ul>
+        <h2>2. Information We Access</h2>
+        <p>When you grant access, our Application interacts with your Google Account to use the following Google API Scope:</p>
+        <ul>
+            <li><strong>https://www.googleapis.com/auth/calendar</strong>: This permission allows the Application to create new calendar events (your class schedules) on your primary Google Calendar.</li>
+        </ul>
 
-    <h2>3. Bagaimana Kami Menggunakan Data Anda</h2>
-    <p>Data Google Calendar Anda hanya digunakan untuk satu tujuan: **membuat dan menempatkan jadwal kuliah yang Anda berikan ke dalam kalender Anda.** Kami tidak melakukan hal lain.</p>
+        <h2>3. How We Use Your Information</h2>
+        <p>Your Google user data is used exclusively for the single, user-facing feature of the Application:</p>
+        <ul>
+            <li>We access your Google Calendar **only** to create calendar events based on the schedule data you paste into the Application.</li>
+            <li>We **do not** read, store, or analyze any of your existing calendar events.</li>
+            <li>We **do not** share, sell, or transfer your data to any third parties for any purpose, such as advertising or marketing.</li>
+        </ul>
 
-    <h2>4. Berbagi dan Penyimpanan Data</h2>
-    <p>Kami <strong>TIDAK PERNAH</strong> menyimpan, membagikan, atau menjual data Google Calendar Anda kepada pihak ketiga mana pun. Semua proses terjadi secara langsung antara browser Anda, server kami, dan Google API. Token autentikasi Anda hanya digunakan selama proses sinkronisasi dan tidak disimpan secara permanen.</p>
+        <h2>4. Data Storage</h2>
+        <p>SyncJadwal **does not store your personal data or Google Calendar data**. The authentication token (session ID) is held temporarily in your browser during your session and is not stored permanently on our servers. The entire process is transactional; we receive your schedule, send it to the Google Calendar API on your behalf, and then discard the data.</p>
+        
+        <h2>5. Compliance with Google Policies</h2>
+        <p>SyncJadwal's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener noreferrer">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
 
-    <h2>5. Kepatuhan Kebijakan Google</h2>
-    <p>Penggunaan dan transfer informasi yang diterima dari Google API oleh SyncJadwal akan mematuhi <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, termasuk persyaratan Penggunaan Terbatas (Limited Use requirements).</p>
-
-    <h2>6. Kontak</h2>
-    <p>Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi pengembang di [MASUKKAN ALAMAT EMAIL-MU DI SINI].</p>
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact the developer at: <strong>[YOUR-EMAIL-HERE@gmail.com]</strong></p>
+    </div>
 </body>
 </html>
